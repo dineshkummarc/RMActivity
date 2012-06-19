@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file contains resource definitions for solid colors.  In
+     addition to plain color resources (retrieved via Resources.getColor()
+     and friends), we are also using it to define drawables that are
+     a solid color. -->
+
+<resources>
+    <!-- Retrieved via Resources.getColor() and friends. -->
+    <color name="red">#f00</color>
+    <color name="list_item_background">#000000</color>
+    <!-- Retrieved via Resources.getDrawable() and friends. -->
+    <drawable name="semi_black">#80000000</drawable>
+    <drawable name="white">#fff</drawable>
+    <drawable name="black">#000</drawable>
+
+</resources>

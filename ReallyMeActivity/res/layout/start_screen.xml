@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textStyle="bold"
+            android:text="@string/login1_phone"/>
+
+     <EditText android:id ="@+id/phone"
+            android:text="+"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/login1_phone_example"/>
+
+    <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="OR"/>
+
+    <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/login1_credentials"/>
+
+     <EditText android:id ="@+id/email"
+            android:text=""
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/login1_credentials_example"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dip"
+        android:orientation="horizontal">
+        <Button android:id ="@+id/button_ok"
+         android:text="@string/login"
+         android:layout_width="150dip"
+         android:layout_height="wrap_content"
+        />
+        <Button android:id ="@+id/button_cancel"
+         android:text="@string/cancel"
+         android:layout_width="150dip"
+         android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+</LinearLayout>

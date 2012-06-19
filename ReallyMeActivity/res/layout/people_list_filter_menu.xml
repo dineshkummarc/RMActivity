@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/pfmi_recency"
+        android:title="@string/pfm_recency"/>
+
+    <item android:id="@+id/pfmi_frequency" 
+        android:title="@string/pfm_frequency"/>
+
+    <item android:id="@+id/pfmi_alphabetical"
+        android:title="@string/pfm_alphabetical"/>
+    
+</menu>

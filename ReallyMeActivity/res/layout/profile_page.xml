@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The top view is a layout manager that places its child views into
+     a row, here set to be vertical (so the first is at the top) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/black">
+
+   <FrameLayout android:id="@+id/user_note"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black"/>
+
+    <!-- START CHANNELS BLOCK-->
+    <FrameLayout android:id="@+id/channels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <!-- END CHANNELS BLOCK-->
+    <!--START SEPARATOR-->
+    <ImageView android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:src="@drawable/separator" />
+    <!--END SEPARATOR-->
+    <!-- START PROFILE NAME BLOCK (my profile or Pawan profile)-->
+    <TextView android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="39dip"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@drawable/white"
+        android:textStyle=""
+        android:paddingTop="13dip"/>
+    <!-- END PROFILE NAME BLOCK (my profile or Pawan profile)-->
+    <!--START ACARDION BLOCK-->
+    <ExpandableListView android:id="@+id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:childIndicatorLeft="10px"
+            android:drawSelectorOnTop="false"
+            android:groupIndicator="@drawable/custom_expander_group"/>
+
+
+    <!--<ScrollView android:id="@+id/profile_page"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent">-->
+
+        <!--<ExpandableListView android:id="@+id/android:list"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:childIndicatorLeft="10px"-->
+            <!--android:drawSelectorOnTop="false"-->
+            <!--android:groupIndicator="@drawable/custom_expander_group"/>-->
+ <!---->
+    <!--</ScrollView>-->
+  <!--END ACARDION BLOCK-->
+</LinearLayout>

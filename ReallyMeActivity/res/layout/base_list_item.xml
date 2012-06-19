@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/item_container"                
+                android:layout_gravity="left"
+                android:layout_height="60px"
+                android:layout_width="fill_parent"
+
+        >
+    <ImageView
+            android:id="@+id/avatar"
+            android:layout_height="59px"
+            android:layout_width="63px"
+            android:layout_gravity="left"
+            android:src="@drawable/nobody"
+            android:adjustViewBounds="true"
+            android:paddingTop="1px"
+            android:paddingRight="3px" />
+
+    <LinearLayout android:id="@+id/row1"
+            android:layout_height="20px"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/avatar"
+            android:orientation="horizontal">
+
+        <ImageView android:id="@+id/buzz"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true"/>
+
+        <TextView
+                android:id="@+id/username"
+                style="@style/TextViewSmall"
+                android:typeface="normal"
+                android:text="User Name"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/row2"
+            android:layout_height="20px"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/avatar"
+            android:layout_below="@id/row1"
+            android:orientation="horizontal">
+
+        <ImageView
+                android:id="@+id/state"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/state_at_home"
+                android:layout_gravity="center_vertical"
+                android:adjustViewBounds="true" />
+
+        <TextView android:id="@+id/location"
+            android:text="Location"
+            style="@style/TextViewSmall" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/statemsg"
+              android:layout_height="20px"
+              android:layout_width="fill_parent"
+              android:textSize="14px"
+              android:layout_below="@id/row2"
+              android:layout_toRightOf="@id/avatar"
+              android:text="$$$$$$$$$$$$$$$$$$$" />
+
+</RelativeLayout>

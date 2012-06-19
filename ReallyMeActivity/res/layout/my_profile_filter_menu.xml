@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/pdfm_view"
+        android:title="@string/fm_view"/>
+
+    <item android:id="@+id/pdfm_edit"
+        android:title="@string/fm_edit"/>
+
+    <item android:id="@+id/pdfm_manage"
+        android:title="@string/fm_manage"/>
+    
+</menu>

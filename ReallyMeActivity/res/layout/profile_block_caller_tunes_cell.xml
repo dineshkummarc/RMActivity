@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout android:id="@+id/ll_avatar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/avatar"
+                android:layout_height="59px"
+                android:layout_width="63px"
+                android:src="@drawable/nobody"
+                android:adjustViewBounds="true"
+                android:paddingTop="1px"
+                android:paddingRight="3px" />
+
+        <TextView android:id ="@+id/fname"
+            android:text="Aleksey"
+            style="@style/TextViewSmall"
+            android:textColor="@drawable/black"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"/>
+        <TextView android:id ="@+id/fname"
+            android:text="Kolesnik"
+            style="@style/TextViewSmall"
+            android:textColor="@drawable/black"
+            android:layout_gravity="center_horizontal"
+            android:enabled="false"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/ll_for"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical">
+
+        <EditText android:id ="@+id/editTextFor"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

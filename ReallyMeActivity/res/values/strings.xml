@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file contains resource definitions for displayed strings, allowing
+     them to be changed based on the locale and options. -->
+
+<resources>
+    <!-- Simple strings. -->
+    <string name="reallyme_app">T-Mobile Remix</string>
+    <string name="back">Back</string>
+    <string name="clear">Clear</string>
+    <string name="newActivity">New</string>
+
+    <string name="pfm_alphabetical">A-Z</string>
+    <string name="pfm_recency">Recency</string>
+    <string name="pfm_frequency">Frequency</string>
+
+    <string name="fm_str_proximility">Proximity</string>
+    <string name="fm_str_calendar">Calendar</string>
+    <string name="fm_str_times_of_day">Time of the day</string>
+
+    <string name="fm_view">View</string>
+    <string name="fm_edit">Edit</string>
+    <string name="fm_manage">Manage</string>
+
+    <!-- This is a complex string containing style runs. -->
+    <string name="main_label">Hello <u>th<ignore>e</ignore>re</u>, <i>you</i> <b>Activity</b>!</string>
+    <!-- Login 1-->
+    <string name="login1_phone">Welcome to T-Mobile Remix. Please enter your T-Mobile number bellow:</string>
+    <string name="login1_phone_example">Example: +11234567890</string>
+    <string name="login1_credentials">enter your My T-Mobile credentials:</string>
+    <string name="login1_credentials_example">Example: +11234567890</string>
+    <string name="login">Log-in</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <!-- Errors. -->
+    <string name="error_login1_phone">Error: Please re-enter your T-Mobile number using the example shown.</string>
+    <string name="error_login1_credentials">Error: Please re-enter your T-Mobile credentials using the example shown.</string>
+    <string name="error_login1_does_not_exist">Error: Number doesn't exist. Please check and re-enter your number.</string>
+    <!-- -->
+    <string name="no_selection">No Selection</string>
+
+</resources>
+
